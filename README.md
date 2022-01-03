@@ -1,5 +1,6 @@
 **Welcome to Median Filter using CUDA programming!**
-This repository was created by Duc Pham Minh, within the scope of Computer Architecture course, Hanoi University of Science and Technology.
+
+This repository was created by Duc Pham Minh, within the scope of Computer Architecture course, Autumn - Winter 2021, Hanoi University of Science and Technology.
 
 **Requirements:**
 Some preparations are needed for this particular code to work:
