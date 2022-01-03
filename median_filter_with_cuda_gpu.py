@@ -14,17 +14,17 @@ import matplotlib.pyplot as plt
 # ---------------------------------------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------------------------------------
-# Test image path. Put this image at the same directory as the script file.
+# Test image path. Put this image at the same directory as the script file is recommended.
 image_path = 'MinhDuc_testphoto.jpg'
 # Number of iterations (or number of test time)
-iterations = 10
+iterations = 10 # Or modify to your desired value
 # Median filter params
-kernel_size = 11
+kernel_size = 11  # Or modify to your desired value
 win_flat_size = kernel_size * kernel_size
 rn = math.floor(kernel_size/2)
 med = math.ceil(win_flat_size/2)
 # Image resize parameters
-image_dimension = 1500
+image_dimension = 1500  # Or modify to your desired value
 image_size = (image_dimension, image_dimension)
 
 
