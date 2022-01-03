@@ -16,7 +16,8 @@ Some preparations are needed for this particular code to work:
 - If you do not own a NVidia Graphics Card or CUDA compatible device, it's hard to run around. Consider seeing the result shown in the "Result" directory as a reference instead.
 
 **Results dependencies:**
-This project was built and executed on the hardware with these following specifications:
+
+This project was built and executed  with these following specifications:
 - CPU: Intel(R) Xeon(R) Bronze 3104, 1.70Ghz base
 - RAM: 32GB DDR4, 2133Mhz
 - GPU: NVidia(R) Quadro RTX 4000
