@@ -11,6 +11,7 @@ import time
 import cv2
 # Matplotlib library for plotting the result
 import matplotlib.pyplot as plt
+# ---------------------------------------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Test image path. Put this image at the same directory as the script file.
@@ -114,6 +115,7 @@ def test_matmul(row, col):
     print(f"=====Average time GPU:{sum(time_gpu) / (iterations - 1)}")
 
 
+# Define test median filter function, compare CPU and GPU timing performance
 def test_median_filter(img, img_size):
 
     img = cv2.resize(img, img_size)
@@ -148,15 +150,15 @@ def test_median_filter(img, img_size):
 
     # Draw image results after applying median filter, compare CPU results to GPU results to original.
     plt.figure(figsize=(9, 3))
-
+    # Original image
     ax1 = plt.subplot(131)
     plt.imshow(img, cmap='gray')
     ax1.title.set_text('Original image')
-
+    # Image processed using CPU
     ax2 = plt.subplot(132)
     plt.imshow(cpu_med, cmap='gray')
     ax2.title.set_text('CPU median')
-
+    # Image processed using GPU
     ax3 = plt.subplot(133)
     plt.imshow(out_gpu_img.astype(int), cmap='gray')
     ax3.title.set_text('GPU median')
@@ -167,8 +169,9 @@ def test_median_filter(img, img_size):
     print(f"=====Average time CPU:{sum(time_cpu) / (iterations - 1)}")
     print(f"=====Average time GPU:{sum(time_gpu) / (iterations - 1)}")
     print()
+# ---------------------------------------------------------------------------------------------------------------------
 
-
+# ---------------------------------------------------------------------------------------------------------------------
 # Main function
 if __name__ == '__main__':
     print('--------Test median filter--------')
