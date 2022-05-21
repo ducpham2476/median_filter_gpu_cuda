@@ -21,5 +21,4 @@ This project was built and executed  with these following specifications:
 - CPU: Intel(R) Xeon(R) Bronze 3104, 1.70Ghz base
 - RAM: 32GB DDR4, 2133Mhz
 - GPU: NVidia(R) Quadro RTX 4000
-Software used:
-- Pycharm Community 2021.1, with additional plugins
+- Software used: Pycharm Community 2021.1, with additional plugins
